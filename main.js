@@ -159,6 +159,7 @@ function deleteTask(id) {
       displayTasks(tasks);
     })
     .catch(error => console.error('Error deleting task:', error));
+  displayTasks(tasks);
 }
 
 function editTask(id) {
