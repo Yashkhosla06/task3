@@ -5,7 +5,7 @@ let tasks = [];
 let editMode = false;
 let editTaskId = null;
 
-const API_BASE_URL = 'http://localhost:8081/tasks';
+const API_BASE_URL = 'https://task1-rx2r.onrender.com//tasks';
 
 document.querySelector('#app').innerHTML = `
 <div class="container">
